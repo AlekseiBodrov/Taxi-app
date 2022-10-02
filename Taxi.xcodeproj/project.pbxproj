@@ -12,6 +12,11 @@
 		20606D8328E9A55A00C2F17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D8228E9A55A00C2F17F /* ViewController.swift */; };
 		20606D8828E9A55F00C2F17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20606D8728E9A55F00C2F17F /* Assets.xcassets */; };
 		20606D8B28E9A55F00C2F17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20606D8928E9A55F00C2F17F /* LaunchScreen.storyboard */; };
+		20606D9328E9B04600C2F17F /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D9228E9B04600C2F17F /* OrderListViewController.swift */; };
+		20606D9528E9B88400C2F17F /* OrderListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D9428E9B88400C2F17F /* OrderListPresenter.swift */; };
+		20606D9728E9B8A700C2F17F /* OrderListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D9628E9B8A700C2F17F /* OrderListInteractor.swift */; };
+		20606D9928E9B8CD00C2F17F /* OrderListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D9828E9B8CD00C2F17F /* OrderListRouter.swift */; };
+		20606D9B28E9B8E900C2F17F /* OrderListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D9A28E9B8E900C2F17F /* OrderListConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		20606D8728E9A55F00C2F17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20606D8A28E9A55F00C2F17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20606D8C28E9A56000C2F17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20606D9228E9B04600C2F17F /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		20606D9428E9B88400C2F17F /* OrderListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListPresenter.swift; sourceTree = "<group>"; };
+		20606D9628E9B8A700C2F17F /* OrderListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListInteractor.swift; sourceTree = "<group>"; };
+		20606D9828E9B8CD00C2F17F /* OrderListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListRouter.swift; sourceTree = "<group>"; };
+		20606D9A28E9B8E900C2F17F /* OrderListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				20606D7E28E9A55A00C2F17F /* AppDelegate.swift */,
 				20606D8028E9A55A00C2F17F /* SceneDelegate.swift */,
+				20606D9228E9B04600C2F17F /* OrderListViewController.swift */,
+				20606D9428E9B88400C2F17F /* OrderListPresenter.swift */,
+				20606D9628E9B8A700C2F17F /* OrderListInteractor.swift */,
+				20606D9A28E9B8E900C2F17F /* OrderListConfigurator.swift */,
+				20606D9828E9B8CD00C2F17F /* OrderListRouter.swift */,
 				20606D8228E9A55A00C2F17F /* ViewController.swift */,
 				20606D8728E9A55F00C2F17F /* Assets.xcassets */,
 				20606D8928E9A55F00C2F17F /* LaunchScreen.storyboard */,
@@ -134,9 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20606D9528E9B88400C2F17F /* OrderListPresenter.swift in Sources */,
+				20606D9B28E9B8E900C2F17F /* OrderListConfigurator.swift in Sources */,
 				20606D8328E9A55A00C2F17F /* ViewController.swift in Sources */,
 				20606D7F28E9A55A00C2F17F /* AppDelegate.swift in Sources */,
 				20606D8128E9A55A00C2F17F /* SceneDelegate.swift in Sources */,
+				20606D9328E9B04600C2F17F /* OrderListViewController.swift in Sources */,
+				20606D9928E9B8CD00C2F17F /* OrderListRouter.swift in Sources */,
+				20606D9728E9B8A700C2F17F /* OrderListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
