@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2039D66C28F012FA005CB2AC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D66B28F012FA005CB2AC /* NetworkError.swift */; };
+		2039D66E28F01311005CB2AC /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D66D28F01311005CB2AC /* KingfisherError.swift */; };
+		2039D67028F01369005CB2AC /* LabelWithLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D66F28F01369005CB2AC /* LabelWithLine.swift */; };
+		2039D67228F013BA005CB2AC /* UIStackView+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67128F013BA005CB2AC /* UIStackView+Extension .swift */; };
+		2039D67528F013E2005CB2AC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67428F013E2005CB2AC /* UIView+Extension.swift */; };
+		2039D67728F013FD005CB2AC /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67628F013FD005CB2AC /* UIFont+Extension.swift */; };
+		2039D67928F0141E005CB2AC /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67828F0141E005CB2AC /* UILabel+Extension.swift */; };
+		2039D67B28F01437005CB2AC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67A28F01437005CB2AC /* UIColor+Extension.swift */; };
+		2039D67D28F01450005CB2AC /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67C28F01450005CB2AC /* UIImageView+Extension.swift */; };
+		2039D67F28F01471005CB2AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D67E28F01471005CB2AC /* NetworkManager.swift */; };
+		2039D68128F0148D005CB2AC /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68028F0148D005CB2AC /* ImageManager.swift */; };
+		2039D68328F014B3005CB2AC /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68228F014B3005CB2AC /* OrderDetailsViewController.swift */; };
+		2039D68528F014D0005CB2AC /* OrderDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68428F014D0005CB2AC /* OrderDetailsPresenter.swift */; };
+		2039D68728F014E2005CB2AC /* OrderDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68628F014E2005CB2AC /* OrderDetailsInteractor.swift */; };
+		2039D68928F014F8005CB2AC /* OrderDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68828F014F8005CB2AC /* OrderDetailsConfigurator.swift */; };
+		2039D68B28F01540005CB2AC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68A28F01540005CB2AC /* Order.swift */; };
+		2039D68D28F0155E005CB2AC /* OrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68C28F0155E005CB2AC /* OrderListTableViewCell.swift */; };
+		2039D68F28F01575005CB2AC /* OrderListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D68E28F01575005CB2AC /* OrderListCellViewModel.swift */; };
 		20606D7F28E9A55A00C2F17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D7E28E9A55A00C2F17F /* AppDelegate.swift */; };
 		20606D8128E9A55A00C2F17F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D8028E9A55A00C2F17F /* SceneDelegate.swift */; };
 		20606D8328E9A55A00C2F17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606D8228E9A55A00C2F17F /* ViewController.swift */; };
@@ -20,6 +38,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2039D66B28F012FA005CB2AC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2039D66D28F01311005CB2AC /* KingfisherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherError.swift; sourceTree = "<group>"; };
+		2039D66F28F01369005CB2AC /* LabelWithLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithLine.swift; sourceTree = "<group>"; };
+		2039D67128F013BA005CB2AC /* UIStackView+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension .swift"; sourceTree = "<group>"; };
+		2039D67428F013E2005CB2AC /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2039D67628F013FD005CB2AC /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		2039D67828F0141E005CB2AC /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		2039D67A28F01437005CB2AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2039D67C28F01450005CB2AC /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		2039D67E28F01471005CB2AC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2039D68028F0148D005CB2AC /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		2039D68228F014B3005CB2AC /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		2039D68428F014D0005CB2AC /* OrderDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsPresenter.swift; sourceTree = "<group>"; };
+		2039D68628F014E2005CB2AC /* OrderDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsInteractor.swift; sourceTree = "<group>"; };
+		2039D68828F014F8005CB2AC /* OrderDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsConfigurator.swift; sourceTree = "<group>"; };
+		2039D68A28F01540005CB2AC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2039D68C28F0155E005CB2AC /* OrderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewCell.swift; sourceTree = "<group>"; };
+		2039D68E28F01575005CB2AC /* OrderListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListCellViewModel.swift; sourceTree = "<group>"; };
 		20606D7B28E9A55A00C2F17F /* Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20606D7E28E9A55A00C2F17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20606D8028E9A55A00C2F17F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +81,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2039D66028F011FE005CB2AC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2039D66628F01299005CB2AC /* OrderList */,
+				2039D66728F012A6005CB2AC /* OrderDetails */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2039D66128F01218005CB2AC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				20606D7E28E9A55A00C2F17F /* AppDelegate.swift */,
+				20606D8028E9A55A00C2F17F /* SceneDelegate.swift */,
+				20606D8928E9A55F00C2F17F /* LaunchScreen.storyboard */,
+				20606D8C28E9A56000C2F17F /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2039D66228F0122B005CB2AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2039D67E28F01471005CB2AC /* NetworkManager.swift */,
+				2039D68028F0148D005CB2AC /* ImageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2039D66328F0123D005CB2AC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2039D66F28F01369005CB2AC /* LabelWithLine.swift */,
+				2039D66A28F012DF005CB2AC /* UIKit */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2039D66428F01246005CB2AC /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				2039D66B28F012FA005CB2AC /* NetworkError.swift */,
+				2039D66D28F01311005CB2AC /* KingfisherError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		2039D66528F01250005CB2AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20606D8728E9A55F00C2F17F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2039D66628F01299005CB2AC /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				2039D66928F012C5005CB2AC /* OrderCell */,
+				2039D66828F012BE005CB2AC /* Entity */,
+				20606D9228E9B04600C2F17F /* OrderListViewController.swift */,
+				20606D9428E9B88400C2F17F /* OrderListPresenter.swift */,
+				20606D9628E9B8A700C2F17F /* OrderListInteractor.swift */,
+				20606D9828E9B8CD00C2F17F /* OrderListRouter.swift */,
+				20606D9A28E9B8E900C2F17F /* OrderListConfigurator.swift */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
+		2039D66728F012A6005CB2AC /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2039D68228F014B3005CB2AC /* OrderDetailsViewController.swift */,
+				2039D68428F014D0005CB2AC /* OrderDetailsPresenter.swift */,
+				2039D68628F014E2005CB2AC /* OrderDetailsInteractor.swift */,
+				2039D68828F014F8005CB2AC /* OrderDetailsConfigurator.swift */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		2039D66828F012BE005CB2AC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2039D68A28F01540005CB2AC /* Order.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2039D66928F012C5005CB2AC /* OrderCell */ = {
+			isa = PBXGroup;
+			children = (
+				2039D68C28F0155E005CB2AC /* OrderListTableViewCell.swift */,
+				2039D68E28F01575005CB2AC /* OrderListCellViewModel.swift */,
+			);
+			path = OrderCell;
+			sourceTree = "<group>";
+		};
+		2039D66A28F012DF005CB2AC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2039D67128F013BA005CB2AC /* UIStackView+Extension .swift */,
+				2039D67428F013E2005CB2AC /* UIView+Extension.swift */,
+				2039D67628F013FD005CB2AC /* UIFont+Extension.swift */,
+				2039D67828F0141E005CB2AC /* UILabel+Extension.swift */,
+				2039D67A28F01437005CB2AC /* UIColor+Extension.swift */,
+				2039D67C28F01450005CB2AC /* UIImageView+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		20606D7228E9A55A00C2F17F = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +210,13 @@
 		20606D7D28E9A55A00C2F17F /* Taxi */ = {
 			isa = PBXGroup;
 			children = (
-				20606D7E28E9A55A00C2F17F /* AppDelegate.swift */,
-				20606D8028E9A55A00C2F17F /* SceneDelegate.swift */,
-				20606D9228E9B04600C2F17F /* OrderListViewController.swift */,
-				20606D9428E9B88400C2F17F /* OrderListPresenter.swift */,
-				20606D9628E9B8A700C2F17F /* OrderListInteractor.swift */,
-				20606D9A28E9B8E900C2F17F /* OrderListConfigurator.swift */,
-				20606D9828E9B8CD00C2F17F /* OrderListRouter.swift */,
+				2039D66128F01218005CB2AC /* SupportingFiles */,
+				2039D66028F011FE005CB2AC /* Modules */,
+				2039D66228F0122B005CB2AC /* Services */,
+				2039D66328F0123D005CB2AC /* Extension */,
+				2039D66428F01246005CB2AC /* Errors */,
+				2039D66528F01250005CB2AC /* Resources */,
 				20606D8228E9A55A00C2F17F /* ViewController.swift */,
-				20606D8728E9A55F00C2F17F /* Assets.xcassets */,
-				20606D8928E9A55F00C2F17F /* LaunchScreen.storyboard */,
-				20606D8C28E9A56000C2F17F /* Info.plist */,
 			);
 			path = Taxi;
 			sourceTree = "<group>";
@@ -149,14 +291,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2039D68528F014D0005CB2AC /* OrderDetailsPresenter.swift in Sources */,
+				2039D67F28F01471005CB2AC /* NetworkManager.swift in Sources */,
 				20606D9528E9B88400C2F17F /* OrderListPresenter.swift in Sources */,
+				2039D68128F0148D005CB2AC /* ImageManager.swift in Sources */,
+				2039D68928F014F8005CB2AC /* OrderDetailsConfigurator.swift in Sources */,
+				2039D67528F013E2005CB2AC /* UIView+Extension.swift in Sources */,
+				2039D67928F0141E005CB2AC /* UILabel+Extension.swift in Sources */,
+				2039D68728F014E2005CB2AC /* OrderDetailsInteractor.swift in Sources */,
 				20606D9B28E9B8E900C2F17F /* OrderListConfigurator.swift in Sources */,
 				20606D8328E9A55A00C2F17F /* ViewController.swift in Sources */,
 				20606D7F28E9A55A00C2F17F /* AppDelegate.swift in Sources */,
+				2039D68328F014B3005CB2AC /* OrderDetailsViewController.swift in Sources */,
 				20606D8128E9A55A00C2F17F /* SceneDelegate.swift in Sources */,
+				2039D67B28F01437005CB2AC /* UIColor+Extension.swift in Sources */,
 				20606D9328E9B04600C2F17F /* OrderListViewController.swift in Sources */,
+				2039D67228F013BA005CB2AC /* UIStackView+Extension .swift in Sources */,
+				2039D66C28F012FA005CB2AC /* NetworkError.swift in Sources */,
+				2039D68D28F0155E005CB2AC /* OrderListTableViewCell.swift in Sources */,
+				2039D67728F013FD005CB2AC /* UIFont+Extension.swift in Sources */,
+				2039D68B28F01540005CB2AC /* Order.swift in Sources */,
 				20606D9928E9B8CD00C2F17F /* OrderListRouter.swift in Sources */,
+				2039D68F28F01575005CB2AC /* OrderListCellViewModel.swift in Sources */,
+				2039D66E28F01311005CB2AC /* KingfisherError.swift in Sources */,
 				20606D9728E9B8A700C2F17F /* OrderListInteractor.swift in Sources */,
+				2039D67D28F01450005CB2AC /* UIImageView+Extension.swift in Sources */,
+				2039D67028F01369005CB2AC /* LabelWithLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,3 @@
-//
-//  OrderListPresenter.swift
-//  Taxi
-//
-//  Created by Алексей Бодров on 02.10.2022.
-//
 
 import Foundation
 
